@@ -1,29 +1,36 @@
-DOM: Document object model
+# DOM: Document Object Model
 
-The DOM is a way to represent a web page so that programs(like javaScript) can interact with it.
+The **DOM (Document Object Model)** is a way to represent a web page so that programs (like JavaScript) can interact with it.
 
-* A browser takes your HTML document and turns it into the DOM.
+- A browser takes your HTML document and turns it into the **DOM**.
 
-with the object model, javaScript gets all the power it needs to create dynamic HTML:
-----------------------------------------------------
+With the object model, JavaScript gets all the power it needs to create **dynamic HTML**.
 
-1.Accessing Elements.
-a:Accessing by ID;
-    Method: document.getElementByID(IdName)
-    Description:Retrieves a single element with the specified id attribute.
-    
-b.Accessing by Class Name:
-    Method:document.getElementByClassName(className)
-    Description:returns a live HTMLCollection of all elements with the specified class name.
+---
 
-c.Accessing by CSS Selectors:
-    i: Single Element:
-        Method: document.querySelector(selector)
-    ii. multiple Element:
-        Method: document.querySelectorAll(selector)
+## 1. Accessing Elements
 
+### a. Accessing by ID
+- **Method:** `document.getElementById(idName)`
+- **Description:** Retrieves a single element with the specified `id` attribute.
 
-----------------------------------------------------
-obj.__proto__ -> used to see {key,value}
+### b. Accessing by Class Name
+- **Method:** `document.getElementsByClassName(className)`
+- **Description:** Returns a live `HTMLCollection` of all elements with the specified class name.
 
+### c. Accessing by CSS Selectors
+
+#### i. Single Element
+- **Method:** `document.querySelector(selector)`
+
+#### ii. Multiple Elements
+- **Method:** `document.querySelectorAll(selector)`
+
+---
+
+## 2. Object Prototype Access
+
+- `obj.__proto__` → Used to view the object's prototype chain and its key-value pairs.
+
+---
 
