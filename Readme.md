@@ -34,3 +34,32 @@ With the object model, JavaScript gets all the power it needs to create **dynami
 
 ---
 
+
+## Accessing by tag name
+- **Method** `document.getElementsByTagName('h1')`
+- **DescriptioN**  Returns a live  
+
+## Accessing using parent node
+const list = document.querySelector('li');
+console.log(list.parentNode) or parentElement
+
+what is difference between parentNode & parentElement
+
+
+
+## HTMLCOllection vs NodeList
+**NodeList gives text as well as element where as HTMLCollection only gives element**
+
+
+
+## e. Accessing using Relationships 
+i. parent Node:
+Method: elements.parentNode or element.parentElement
+Description: Access the immediate parent of an element.
+
+ii. child Nodes
+method: element.childNodes(includes text nodes)or element.children(only element nodes)
+Description:Access all child nodes of an element.
+
+iii. First and last Child 
+methods: element.firstChild,element.lastChild
